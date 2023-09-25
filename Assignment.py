@@ -30,7 +30,7 @@ st.write("")
 st.write("")
 #'<span class="custom-text">This text has a custom color.</span>', unsafe_allow_html=True
 
-df=pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
+df=pd.read_csv("https://raw.githubusercontent.com/AbeerDib/DataVisualization/main/WA_Fn-UseC_-Telco-Customer-Churn.csv")
 col1,col2=st.columns([1.3,1])
 with col2:
     rows = st.slider('Select the range of rows you want to see', 
